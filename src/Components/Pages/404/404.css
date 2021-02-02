@@ -1,0 +1,131 @@
+.text-white
+{
+    color: white;
+}
+.float-none
+{
+    float: none !important;
+}
+.integration_mode_switch_parent
+{
+    margin-top: 10px;
+    vertical-align: middle;
+}
+.integration_mode_switch_parent .toggle.btn
+{
+    min-width: 59px;
+    min-height: 25px !important;
+    height: 25px !important;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 295px !important;
+}
+.integration_mode_switch_parent .toggle.btn .btn {line-height: 12px;}
+.integration_mode_switch_parent .toggle-on.btn {color: #fff;}
+.integration_mode_switch_parent .badge {padding: 2px 5px; margin-top: -5px;}
+.integration_mode_switch_parent .tooltip-inner{    width: max-content;}
+
+
+
+.l_loading {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 10px 10px 20px rgba(107, 102, 102, 0.2);
+    -moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 160px;
+    height: 160px;
+    background: #1e1824;
+    animation: shadow 4s;
+    display: inline-block;
+}
+
+
+.l_loading:hover {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.l_loading:hover circle {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.l_loading:hover .play {
+    display: none;
+}
+.l_loading:hover .pause {
+    display: block;
+}
+.l_loading:active {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+/*.animate-lp {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: circle-push 1s;
+    width: 90%;
+}*/
+
+.circle-highlight {
+    opacity: 0.1;
+    animation: circle-fill 10s linear forwards infinite;
+}
+
+.circle-purple-animate {
+    animation: circle-fill 6s linear forwards infinite;
+    transform: rotate(-30deg);
+    transform-origin: center;
+    stroke-dasharray: 20;
+}
+.circle-white-animate {
+    animation: circle-fill 8s linear forwards infinite;
+    transform: rotate(-120deg);
+    transform-origin: center;
+    stroke-dasharray: 25;
+}
+.circle-lines {
+    animation: circle-fill 5s linear forwards infinite;
+    transform: rotate(-130deg);
+    transform-origin: center;
+}
+
+.error-wrapper{padding-left: 15px;padding-right: 15px;}
+.col-auto{flex:auto;align-self: center;}
+.big-text{    text-align: center; font-size: 158px; color: #0f98cf; margin-top:-25px;margin-bottom: -20px;}
+.l_loading { font-size: 120px;}
+.l_loading svg{   margin-top: -40px;}
+.error-wrapper>.row{
+    height: 100vh;
+}
+
+
+
+@keyframes circle-fill {
+    from {
+        stroke-dashoffset: 700;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes circle-push {
+    from {
+        height: 0%;
+    }
+    to {
+        height: 100%;
+    }
+}
+.carriers-logo-sm
+{
+    height: 65px; max-height: 65px; width: auto; max-width: 100%;
+}

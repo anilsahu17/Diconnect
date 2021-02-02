@@ -1,0 +1,51 @@
+.testimonial-quote {
+    display: block;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px 0;
+    color: #111;
+    line-height: 23px;
+}
+.testimonial {
+    max-width: 100%;
+    margin: 20px auto 100px auto;
+    padding: 0 20px;
+}
+.testi_box img{max-width:150px; margin:0 auto;}
+
+
+.testimonial-avatar{max-width:108px;margin:0 auto 20px;}
+
+.testimonial h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #111;
+}
+
+
+.testimonial-author {
+    font-weight: 800;
+    color: #111;
+}
+
+
+.testimonial-quote {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 0;
+    color: #333;
+    line-height: 23px;
+}
+.testimonial {
+    max-width: 100%;
+    margin: 20px auto 100px auto;
+    padding: 0 20px;
+}
+.testi_box img{max-width:150px; margin:0 auto;}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #13b8f0;
+}
+.main-gallery, .gallery-cell{text-align: center;}
+.main-gallery a:hover, .main-gallery a:active, .gallery-cell a:active, .gallery-cell a:hover {text-decoration: none;}

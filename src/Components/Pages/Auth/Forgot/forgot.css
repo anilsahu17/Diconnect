@@ -1,0 +1,6 @@
+.animateBtn{position: relative;}
+.animateBtn .load, .animateBtn .check{display:none; position: absolute;   left: calc(50% - 15px); top: calc(50% - 14px);}
+.animateBtn.clicked .load{display:block;}
+.animateBtn.clicked.done .load, .animateBtn.clicked span{opacity: 0;}
+.animateBtn.clicked.done .check{display:block;fill: #fff;}
+.filed-error{ color: #f00;  font-size: 12px; }
